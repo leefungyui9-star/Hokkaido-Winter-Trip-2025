@@ -11,7 +11,7 @@ export const RESERVATIONS: Reservation[] = [
     number: 'Check Email',
     date: '24-27 Dec',
     status: 'Confirmed',
-    link: 'https://maps.app.goo.gl/qnbdAW9287WrX2t56'
+    link: 'https://maps.apple.com/?q=Keio+Prelia+Hotel+Sapporo'
   },
   {
     id: 'r1',
@@ -38,7 +38,7 @@ export const RESERVATIONS: Reservation[] = [
     number: 'Check Email',
     date: '27-29 Dec',
     status: 'Confirmed',
-    link: 'https://maps.app.goo.gl/2TuPM6ArLF6Go1wJ7'
+    link: 'https://maps.apple.com/?q=La+gent+Stay+Hakodate+Ekimae'
   },
   {
     id: 'h3',
@@ -47,7 +47,7 @@ export const RESERVATIONS: Reservation[] = [
     number: 'Check Email',
     date: '29 Dec - 1 Jan',
     status: 'Confirmed',
-    link: 'https://maps.app.goo.gl/dyqQXgu7LCKGsH2V6'
+    link: 'https://maps.apple.com/?q=The+Royal+Park+Canvas+Sapporo+Odori+Park'
   },
   {
     id: 'r3',
@@ -130,7 +130,7 @@ export const ITINERARY: DayItinerary[] = [
         title: 'Dinner: Guenpin Fugu',
         type: ActivityType.Food,
         bookingReference: '#25488',
-        location: { name: 'Guenpin Fugu', mapUrl: 'https://maps.app.goo.gl/DyLcaL9uBMxfCmck6' },
+        location: { name: 'Guenpin Fugu', mapUrl: 'https://maps.apple.com/?q=Guenpin+Fugu+Susukino' },
         link: 'https://guenpin-susukino.com/zh_hk/',
         image: 'https://picsum.photos/id/493/200/200'
       }
@@ -173,7 +173,7 @@ export const ITINERARY: DayItinerary[] = [
         title: 'Dinner: Kani Shogun',
         type: ActivityType.Food,
         bookingReference: 'Confirmed',
-        location: { name: 'Kani Shogun Sapporo', mapUrl: 'https://maps.app.goo.gl/hgV6yS5ByUTLL7ny7' },
+        location: { name: 'Kani Shogun Sapporo', mapUrl: 'https://maps.apple.com/?q=Kani+Shogun+Sapporo' },
         image: 'https://picsum.photos/id/292/200/200'
       },
       {
